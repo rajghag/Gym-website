@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  background: #333;
+  color: #fcf5f5;
+  padding: 1rem 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 100px 20px;
+  background: #f4f4f4;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+}
+
+.hero-section button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.features-section {
+  padding: 50px 20px;
+  background: #e9ecef;
+  text-align: center;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.feature {
+  background: white;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+}
+
+form input,
+form textarea,
+form button {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #333;
+  color: white;
+}
+.adi-logo{
+  margin-left: 14rem;
+  font-size: 1rem;
+}
